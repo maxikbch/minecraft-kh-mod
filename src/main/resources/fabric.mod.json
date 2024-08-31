@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "maxos-kh-mod",
+	"version": "${version}",
+	"name": "Kingdom Hearts Mod",
+	"description": "This is Kingdom Hearts Mod by Maxo13",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/maxos-kh-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.maxo13.maxoskhmod.KingdomHeartsMod"
+		],
+		"client": [
+			"net.maxo13.maxoskhmod.KingdomHeartsModClient"
+		],
+		"fabric-datagen": [
+			"net.maxo13.maxoskhmod.KingdomHeartsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"maxos-kh-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
