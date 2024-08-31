@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "gui_light": "front",
+  "textures": {
+    "layer0": "maxos-kh-mod:item/keyblade/kingdom_key"
+  },
+  "display": {
+    "gui": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    }
+  }
+}
+
