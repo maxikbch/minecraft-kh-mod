@@ -10,7 +10,7 @@ import net.minecraft.item.ItemGroups;
 
 public class KeybladeItems {
 
-    public static final Item KEYBLADE = ModItems.registerItem("keyblade", new Item(new FabricItemSettings()));
+    public static final Item KEYBLADE = ModItems.registerItem("keyblade", new Item(new FabricItemSettings().maxCount(1)));
 
 
     public static void registerItems(){
