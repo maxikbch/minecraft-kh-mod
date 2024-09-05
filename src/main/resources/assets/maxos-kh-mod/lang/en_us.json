@@ -2,5 +2,6 @@
   "item.maxos-kh-mod.keyblade": "Keyblade",
   "itemgroup.maxos-kh-mod.kingdom_hearts_general": "Kingdom Hearts General",
   "key.maxos-kh-mod.open_keyblade_menu": "Open Keyblade Menu",
-  "key.maxos-kh-mod.kingdom_hearts_mod": "Kingdom Hearts Mod"
+  "key.maxos-kh-mod.kingdom_hearts_mod": "Kingdom Hearts Mod",
+  "block.maxos-kh-mod.keyblade_altar": "Keyblade Altar"
 }

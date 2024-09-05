@@ -1,3 +1,5 @@
+
+
 package net.maxo13.maxoskhmod.gui.keyblade_menu;
 
 
@@ -9,4 +11,5 @@ public class KeybladeMenuHandledScreen extends CottonInventoryScreen<KeybladeMen
     public KeybladeMenuHandledScreen(KeybladeMenuGUI handler, PlayerInventory inventory, Text title) {
         super(handler, inventory.player, title);
     }
+    
 }

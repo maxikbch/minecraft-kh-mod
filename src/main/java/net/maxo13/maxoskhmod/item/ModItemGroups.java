@@ -2,6 +2,7 @@ package net.maxo13.maxoskhmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.maxo13.maxoskhmod.KingdomHeartsMod;
+import net.maxo13.maxoskhmod.block.ModBlocks;
 import net.maxo13.maxoskhmod.item.keyblade.KeybladeItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,6 +21,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(KeybladeItems.KEYBLADE))
                     .entries((displayContext, entries) -> {
                         entries.add(KeybladeItems.KEYBLADE);
+                        entries.add(ModBlocks.KEYBLADE_ALTAR_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

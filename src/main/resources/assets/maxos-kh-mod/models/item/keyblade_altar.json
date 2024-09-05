@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "maxos-kh-mod:block/keyblade_altar/side"
+  }
+}
